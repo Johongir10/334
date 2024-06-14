@@ -1,0 +1,383 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+header ul :hover {
+    color: #7EB693;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid black;
+    padding: 6px;
+    border-radius: 50px;
+
+}
+
+header div img {
+    width: 36px;
+    height: 36px;
+}
+
+@font-face {
+    font-family: "yellowtail";
+    src: url("./srift/Yellowtail-Regular.ttf");
+}
+
+h2 {
+    font-family: "yellowtail", sans-serif;
+    color: #7EB693;
+}
+
+.hero {
+    background-image: url("./img/IMAGE\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding: 256px;
+    margin-top: 50px;
+
+
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url("./srift/Roboto-Regular.ttf");
+}
+
+h1 {
+    font-family: "roboto";
+}
+
+.Welcome h1 {
+    font-size: 70px;
+    color: #274C5B;
+    margin-top: 25px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.Welcome {
+    align-items: center;
+    padding-right: 300px;
+}
+
+.Welcome button {
+    padding: 15px 71px 15px 33px;
+    background-color: #EFD372;
+    border-radius: 16px;
+    border: none;
+}
+
+.katta {
+    padding: 200px 200px;
+    margin: 30px 30px;
+    background-image: url('./img/IMAGE\ \(5\).png');
+    background-repeat: no-repeat;
+}
+
+.btn {
+    font-size: 20px;
+
+}
+
+.btn:hover {
+    background-color: #7EB693;
+}
+
+.katta h2 {
+    padding-left: 10px;
+}
+
+.katta h1 {
+    padding-left: 10px;
+}
+
+.kattta {
+    padding: 200px 200px;
+    margin: 30px 30px;
+    background-image: url('./img/IMAGE\ \(6\).png');
+    background-repeat: no-repeat;
+}
+
+.kattta h2 {
+    padding-left: 10px;
+}
+
+.kattta h1 {
+    padding-left: 10px;
+}
+
+.omg {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
+.tanish {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.suu {
+    background-color: #F9F8F8;
+}
+
+.text {
+    padding-top: 100px;
+}
+
+.text p {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.nm{
+    background-color: #274C5B;
+    border: solid 1px gray;
+    border-radius: 5px;
+    color: white;
+    padding: 20px 20px ;
+    margin-bottom: 30px ;
+}
+.nm:hover{
+    background-color: #7EB693;
+}
+.o{
+    text-align: center;
+    
+}
+.o h2{
+    padding-top: 70px;
+    padding-bottom: 10px;
+}
+.johon{
+    display: flex;
+    justify-content:center;
+    gap: 80px;
+    flex-wrap: wrap;
+    padding: 30px 30px ;
+    padding-left: 40px ;
+    padding-right: 40px;
+}
+.dada h1{
+    color: white;
+}
+.u{
+    background-color: #274C5B;
+}
+.btt{
+    background-color: #EFD372;
+    border: solid 1px white;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 20px 20px ;
+}
+.btt:hover{
+    background-color: #7EB693;
+}
+.jovoh{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 50px 50px ;
+}
+.imgla{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 30px 30px 30px 30px ;
+    padding-bottom: 40px;
+}
+.jj{
+    border-radius: 8px ;
+    border: none;
+    background-color: #02506f;
+    padding: 20px 15px 20px 15px;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.vegetable{
+    background-color: white;
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+}
+.kolo img{
+    display: flex;
+    justify-content: center;
+
+}
+.kolo h3{
+    margin-left: 20px;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+.kolo h4{
+    padding-left: 20px;
+    padding-top: 25px;
+    font-size: 20px;
+}
+.kolo i{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.not{
+    /* width: 400px; */
+    height: 600px;
+    display: flex;
+    gap: 10px;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+.hgm{
+    width: 720px;height: 623px;
+    background-color: rgb(249, 246, 246);
+    border-radius: 30px;
+    position: absolute;
+    left: 600px;
+    top: 50px;
+    padding: 40px;
+    padding-top: 40px ;
+    font-size: 20px ;
+   
+}
+.hgm h1{
+    padding-bottom: 15px ;
+}
+.hgm p{
+    padding-bottom: 10px;
+}
+
+
+.oo{
+    background-image: url("./img/bg-oo.png");
+    padding: 100px 0;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Quality h2{
+    padding-bottom: 20px ;
+}
+.Quality h1{
+    padding-bottom: 15px;
+}
+.Quality i{
+    padding: 10px 10px ;
+}
+.Quality p{
+    padding-top: 20px ;
+    padding-bottom: 20px ;
+}
+.john{
+    width: 1200px;
+    
+}
+.Quality h3{
+    padding-bottom: 40px ;
+}
+.otasi{
+    border: #7EB693 solid 5px;
+    border-radius: 200px;
+    background-color: #F1F1F1;
+    padding:20px 20px;
+    width: 180px;
+    height: 150px;
+    margin: 50px;
+}
+.radius-ota{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.ghjtyt{
+    padding: 20px 20px ;
+    background-color: #F1F1F1;
+    border: 1px solid ;
+    border-radius: 8px ;
+    font-size: 20px;
+}
+.ghjtyt:hover{
+    background-color: #7EB693;
+}
+.the{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 80px 80px;
+}
+.kl{
+    background-image: url("./img/IMAGE.png");
+   background-repeat: no-repeat;
+  padding-bottom: 650px;
+}
+.l{
+   background-color: white;
+   width: 30px;
+   height: 250px;
+   border-radius: 10px ;
+   text-align: center;
+   margin-left: 170px ;
+  
+}
+.bghn{
+    background-image: url('./img/IMAGE\ \(8\).png');
+}
+.farming-img{
+    background-image: url('./img/IMAGE\ \(9\).png');
+    background-repeat: no-repeat;
+    height: 340px;
+    width: 560px;
+}
+.farming-img-10{
+    
+}
+.abautic{
+    padding: 50px 100px ;
+    
+   
+}
+.farming-text{
+    color: black;
+    background-color: white;
+    border: solid 2px ;
+    border-radius: 8px;
+    height: 220px;
+    width: 350px;
+     padding: 15px 15px 15px 15px ;
+     margin-left: 100px;
+     margin-top: -100px;
+    
+}
